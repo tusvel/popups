@@ -75,3 +75,18 @@ nextjs-portal {
   filter: none;
   pointer-events: auto;
 }
+
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 80%;
+  margin-bottom: 15px;
+  height: 14px;
+  background: repeating-linear-gradient(-45deg, white 0 15px, #0000 0 20px)
+    right/200% 100%;
+  animation: l3 20s infinite linear;
+}
+@keyframes l3 {
+  100% {
+    background-position: left;
+  }
+}

@@ -1,5 +1,5 @@
-import { SuccessfullyConnectedModal } from "@/features/SuccessfullyConnectedModal";
+import { WaitingTransactionModal } from "@/features/WaitingTransactionModal";
 
 export default function Home() {
-  return <SuccessfullyConnectedModal />;
+  return <WaitingTransactionModal />;
 }
