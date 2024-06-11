@@ -23,7 +23,7 @@ export function Modal(props: ModalProps) {
 
   return (
     <Transition show={open}>
-      <Dialog className="relative z-50" onClose={setOpen}>
+      <Dialog className="relative z-[9999999]" onClose={setOpen}>
         <TransitionChild
           enter="ease-out duration-300"
           enterFrom="opacity-0"
@@ -45,7 +45,7 @@ export function Modal(props: ModalProps) {
               leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
             >
               <DialogPanel
-                className={`relative rounded-sm text-white transform bg-background text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg border ${theme === ModalTheme.ERROR ? "border-error" : "border-success"} p-3`}
+                className={`relative rounded-sm text-white transform bg-background text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg z-[9999999] border ${theme === ModalTheme.ERROR ? "border-error" : "border-success"} p-3`}
               >
                 <svg
                   className={`h-6 w-6 ${theme === ModalTheme.SUCCESS ? "text-success" : "text-error"} hover:text-opacity-50 cursor-pointer absolute -top-1.5 -right-7`}
