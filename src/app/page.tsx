@@ -1,5 +1,5 @@
-import { WaitingTransactionModal } from "@/src/features/WaitingTransactionModal";
+import "../app/globals.css";
 
 export default function Home() {
-  return <WaitingTransactionModal />;
+  return <div></div>;
 }
