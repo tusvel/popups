@@ -78,7 +78,7 @@ nextjs-portal {
 
 /* HTML: <div class="loader"></div> */
 .loader {
-  width: 80%;
+  width: 100%;
   margin-bottom: 15px;
   height: 14px;
   background: repeating-linear-gradient(-45deg, white 0 15px, #0000 0 20px)

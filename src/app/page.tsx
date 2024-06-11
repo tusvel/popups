@@ -1,5 +1,5 @@
-import { ErrorModal } from "../features/ErrorModal";
+import { WaitingTransactionModal } from "../features/WaitingTransactionModal";
 
 export default function Home() {
-  return <ErrorModal />;
+  return <WaitingTransactionModal />;
 }

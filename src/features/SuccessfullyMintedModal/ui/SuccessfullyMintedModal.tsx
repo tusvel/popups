@@ -14,7 +14,7 @@ export const SuccessfullyMintedModal = () => {
       <div
         className={"relative overflow-hidden min-h-[320px] mb-3 flex flex-col"}
       >
-        <div className="relative text-success text-4xl font-chakra font-bold z-10 flex-auto flex justify-center items-center pl-10 pr-10 text-center">
+        <div className="relative text-success text-4xl font-chakra font-bold z-10 flex-auto flex justify-center items-center md:pl-20 md:pr-20 text-center">
           <span style={{ textShadow: "0px 0px 12px #ABFF00" }}>
             Successfully minted
           </span>
