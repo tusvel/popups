@@ -1,9 +1,9 @@
 "use client";
-import { Modal } from "@/shared/ui/Modal";
-import { ModalTheme } from "@/shared/ui/Modal/Modal";
+import { Modal } from "../../../shared/ui/Modal";
+import { ModalTheme } from "../../../shared/ui/Modal/Modal";
 import { useState } from "react";
 import Image from "next/image";
-import BackgroundImage from "@/shared/assets/WaitBg.png";
+import BackgroundImage from "../../../shared/assets/WaitBg.png";
 
 export const WaitingTransactionModal = () => {
   const [open, setOpen] = useState(true);

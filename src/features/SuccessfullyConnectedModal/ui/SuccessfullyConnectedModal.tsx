@@ -1,10 +1,10 @@
 "use client";
-import { Modal } from "@/shared/ui/Modal";
-import { ModalTheme } from "@/shared/ui/Modal/Modal";
+import { Modal } from "../../../shared/ui/Modal";
+import { ModalTheme } from "../../../shared/ui/Modal/Modal";
 import { useState } from "react";
 import Image from "next/image";
-import BackgroundImage from "@/shared/assets/SuccessBg.jpeg";
-import GotItIcon from "@/shared/assets/icons/gotit.svg";
+import BackgroundImage from "../../../shared/assets/SuccessBg.jpeg";
+import GotItIcon from "../../../shared/assets/icons/gotit.svg";
 
 export const SuccessfullyConnectedModal = () => {
   const [open, setOpen] = useState(true);

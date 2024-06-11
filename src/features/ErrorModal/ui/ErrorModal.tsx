@@ -1,10 +1,10 @@
 "use client";
-import { Modal } from "@/shared/ui/Modal";
-import { ModalTheme } from "@/shared/ui/Modal/Modal";
+import { Modal } from "../../../shared/ui/Modal";
+import { ModalTheme } from "../../../shared/ui/Modal/Modal";
 import { useState } from "react";
 import Image from "next/image";
-import TryAgainIcon from "@/shared/assets/icons/tryagain.svg";
-import BackgroundImage from "@/shared/assets/ErrorBg.jpeg";
+import TryAgainIcon from "../../../shared/assets/icons/tryagain.svg";
+import BackgroundImage from "../../../shared/assets/ErrorBg.jpeg";
 
 export const ErrorModal = () => {
   const [open, setOpen] = useState(true);

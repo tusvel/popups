@@ -1,5 +1,5 @@
-import { SuccessfullyConnectedModal } from "@/features/SuccessfullyConnectedModal";
+import { ErrorModal } from "../features/ErrorModal";
 
 export default function Home() {
-  return <SuccessfullyConnectedModal />;
+  return <ErrorModal />;
 }
